@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script-->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified JavaScript -->
@@ -58,7 +59,31 @@
 		.container{
 			margin: 4% auto;
 		}
+		footer{
+			width: 100%;
+			background-color: #04669b;
+			padding: 5%;
+			color: #FFF;
+		}
+		.fa{
+			padding: 5px 20px 20px 20px;
+			font-size: 30px;
+			color: #FFF;
+		}
+		.fa:hover{
+			color: #D5D5D5;
+			text-decoration: none;
+		}
+		.icon{
+			padding-top: 16px; 
+		}
 
+		@media(max-width: 900px){
+			.fa{
+				font-size: 20px;
+				padding: 10px;
+			}
+		}
 		@media(max-width: 730px){
 			.carousel-caption {
 				display: none;
@@ -145,5 +170,65 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>What is Bootstrap</h2>
+				<p>Bootstrap is a powerful front-end framework for faster and easier web development. It includes HTML and CSS based design templates for common user interface components like Typography, Forms, Buttons, Tables, Navigations, Dropdowns, Alerts, Modals, Tabs, Accordion, Carousel and many other as well as optional JavaScript extensions.</p>
+				<p>Bootstrap also gives you ability to create responsive layout with much less efforts.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="Image/index.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<h2 class="text-center">Bootstrap Advantage</h2>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Save lots of time </h4>
+				<p>
+					You can save lots of time and efforts using the Bootstrap predefined design templates and classes and concentrate on other development work.
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<img src="Image/bootstrapResponsive-.png" class="img-responsive">
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Responsive features</h4>
+				<p>
+					Using Bootstrap you can easily create responsive designs. Bootstrap responsive features make your web pages to appear more appropriately on different devices and screen resolutions without any change in markup.
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<img src="Image/bootstrapResponsive-.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Contact Us</h3>
+				<br>
+				<h4>Our Address and contact info here.</h4>
+			</div>
+			<div class="col-sm-4">
+				<h3>Connect</h3>
+				<br>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+			<div class="col-sm-4">
+				<img src="Image/BrandLogo.png" class="icon">
+			</div>
+		</div>
+	</footer>
 </body>
 </html>		
